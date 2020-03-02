@@ -1,0 +1,9 @@
+[Unit]
+Description=Remedies issue involving power control of Surface Go Touchscreen
+
+[Service]
+Type=oneshot
+ExecStart=sh /opt/surfacego-touchscreen
+
+[Install]
+WantedBy=multi-user.target
